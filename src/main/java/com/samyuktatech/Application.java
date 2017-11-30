@@ -44,9 +44,9 @@ public class Application {
     
     @Bean
     public ConnectionFactory connectionFactory() {
-    	CachingConnectionFactory connectionFactory = new CachingConnectionFactory("localhost");
-    	connectionFactory.setUsername("guest");
-    	connectionFactory.setPassword("guest");
+    	CachingConnectionFactory connectionFactory = new CachingConnectionFactory("10.50.1.148");
+    	connectionFactory.setUsername("test");
+    	connectionFactory.setPassword("test");
     	return connectionFactory;
     }
 
